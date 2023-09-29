@@ -1,0 +1,223 @@
+<!-- Course discussion (HW help kinda stuff) page -->
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "UTF-8">
+      <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+      <link rel = "stylesheet" href = "../../../styles/style.css">
+      <link rel = "stylesheet" href = "../../../styles/courses.css">
+      <link rel = "stylesheet" href = "../../../styles/forum.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script type = "text/javascript" src = "../../../scripts/allPages.js"></script>
+      <script type = "text/javascript" src = "../../../scripts/sideMenu.js"></script>
+      <script type = "text/javascript" src = "../../../scripts/forum.js"></script>
+      <title>Discussion Forum</title>
+   </head>
+   <body>
+      
+      <div id = "header">
+         <span id = "leftHeader">
+            <img id = "menuButton" src = "../../../styles/images/menu.png" alt = "menuButton">
+            <div id = "menu">
+               <div id = "space"></div>
+               <a class = "mainLink" href = "../../index.html"><div class = "menuBlock">Courses</div></a>
+               <div id = "courseLinks"></div>
+               <a id = "help" class = "mainLink" href = "#"><div  class = "menuBlock">Help</div></a>
+            </div>
+            <a href = "#"><img id = "logo" src = "../../../styles/images/logo.png" alt = "ClassHub"></a> <!-- not sure if this should redirect to courses or home page of entire website -->
+         </span>
+         <div id = "profileContainer">
+            <img id = "profile" src = "../../../styles/images/profile.png" alt = "profile">
+            <div id = "profileDropdown">
+               <a href = "../../index.html">Settings</a>
+               <a href = "../../../index.html">Log Out</a> <!-- should redirect to login page probably -->
+            </div>
+         </div>
+      </div>
+      <div id = "content">
+
+         <div id = "pages">
+            <!-- side menu for specific pages of a course -->
+            <a href = "../index.html"><div id = "titleBlock" class = "pageBlock">MATH 4100 - Linear Algebra</div></a>
+            <a href = "../announcements/announcements.html"><div class = "pageBlock">Announcements</div></a>
+            <a href = "../materials/materials.html"><div class = "pageBlock">Materials</div></a>
+            <a href = "../assignments/assignments.html"><div class = "pageBlock">Assignments</div></a>
+            <a href = "#"><div class = "pageBlock">Discussion Forum</div></a>
+            <a href = "../grade calculator/report card.html"><div class = "pageBlock">Grade Description</div></a>
+            <a href = "../grade calculator/grade.html"><div class = "pageBlock">Grade Calculator</div></a>
+
+         </div>
+
+         <div id = "questions">
+            <div id = "questionButton">
+               <button id = "addQuestion">
+                  <img id = "plus" src = "../../../styles/images/plus.png" alt = "add question">
+                  New Question
+               </button>
+               <!-- Add new post button. Then have a thing to completely cover the page with the new announcement form thingy -->
+               <!-- Also for each announcement, have a dot dot dot image that you can click on to edit or delete an announcement -->
+            </div>
+            <div class = "questionContainer">
+               <div class = "questionHeader">
+                  <div class = "title">
+                     Testing
+                     <span>
+                        <span class = "date">Jan 01, 2000</span>
+                        <img class = "kebabMenu teacherOptions" src = "../../../styles/images/kebabMenu.jpg" alt = "announcement options">
+                     </span>
+                  </div>
+                  <div class = "personName">
+                     Richard Plotka
+                  </div>
+               </div>
+            </div>
+            <div class = "questionContainer">
+               <div class = "questionHeader">
+                  <div class = "title">
+                     Testing
+                     <span>
+                        <span class = "date">Jan 01, 2000</span>
+                        <img class = "kebabMenu teacherOptions" src = "../../../styles/images/kebabMenu.jpg" alt = "announcement options">
+                     </span>
+                  </div>
+                  <div class = "personName">
+                     Richard Plotka
+                  </div>
+               </div>
+            </div>
+            <div class = "questionContainer">
+               <div class = "questionHeader">
+                  <div class = "title">
+                     Testing
+                     <span>
+                        <span class = "date">Jan 01, 2000</span>
+                        <img class = "kebabMenu teacherOptions" src = "../../../styles/images/kebabMenu.jpg" alt = "announcement options">
+                     </span>
+                  </div>
+                  <div class = "personName">
+                     Richard Plotka
+                  </div>
+               </div>
+            </div>
+            <div class = "questionContainer">
+               <div class = "questionHeader">
+                  <div class = "title">
+                     Testing
+                     <span>
+                        <span class = "date">Jan 01, 2000</span>
+                        <img class = "kebabMenu teacherOptions" src = "../../../styles/images/kebabMenu.jpg" alt = "announcement options">
+                     </span>
+                  </div>
+                  <div class = "personName">
+                     Richard Plotka
+                  </div>
+               </div>
+            </div>
+            <div class = "questionContainer">
+               <div class = "questionHeader">
+                  <div class = "title">
+                     Testing
+                     <span>
+                        <span class = "date">Jan 01, 2000</span>
+                        <img class = "kebabMenu teacherOptions" src = "../../../styles/images/kebabMenu.jpg" alt = "announcement options">
+                     </span>
+                  </div>
+                  <div class = "personName">
+                     Richard Plotka
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div id = "whiteOut">
+            <img id = "backArrow" src = "../../../styles/images/leftArrow.png" alt = "back">
+            <div class = "question">
+               Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+               Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+               Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+               Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+               Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+               Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+               <div class = "personName">
+                  Richard Plotka, <span class = "date">Jan 01, 2000</span>
+                  <img class = "kebabMenu teacherOptions" src = "../../../styles/images/kebabMenu.jpg" alt = "announcement options">
+               </div>
+            </div>
+            <form onsubmit = "return false;">
+               <label for = "answerBox">Add Response:</label><br>
+               <input id = "input" type = "text" name = "answerBox"><br>
+               <input type = "submit" value = "Submit Response">
+            </form>
+            <div class = "answer">
+               Answer 1
+               <div class = "personName">
+                  Richard Plotka, <span class = "date">Jan 01, 2000</span>
+               </div>
+            </div>
+            <div class = "answer">
+               Answer 2
+               <div class = "personName">
+                  Richard Plotka, <span class = "date">Jan 01, 2000</span>
+               </div>
+            </div>
+            <div class = "answer">
+               Answer 3
+               <div class = "personName">
+                  Richard Plotka, <span class = "date">Jan 01, 2000</span>
+               </div>
+            </div>
+            <div class = "answer">
+               Answer 4
+               <div class = "personName">
+                  Richard Plotka, <span class = "date">Jan 01, 2000</span>
+               </div>
+            </div>
+            <div class = "answer">
+               Answer 5
+               <div class = "personName">
+                  Richard Plotka, <span class = "date">Jan 01, 2000</span>
+               </div>
+            </div>
+            <div class = "answer">
+               Answer 6
+               <div class = "personName">
+                  Richard Plotka, <span class = "date">Jan 01, 2000</span>
+               </div>
+            </div>
+            <div class = "answer">
+               Answer 7
+               <div class = "personName">
+                  Richard Plotka, <span class = "date">Jan 01, 2000</span>
+               </div>
+            </div>
+            <div class = "answer">
+               Answer 8
+               <div class = "personName">
+                  Richard Plotka, <span class = "date">Jan 01, 2000</span>
+               </div>
+            </div>
+            <div class = "answer">
+               Answer 9
+               <div class = "personName">
+                  Richard Plotka, <span class = "date">Jan 01, 2000</span>
+               </div>
+            </div>
+            <div class = "answer">
+               Answer 10
+               <div class = "personName">
+                  Richard Plotka, <span class = "date">Jan 01, 2000</span>
+               </div>
+            </div>
+         </div>
+
+         <!-- 
+            make blocks that go across the screen
+            - when you click on the screen, go to another page that gets you to a specific question's page
+            - make that page kinda look like how Submitty has it
+         -->
+
+      </div>
+
+   </body>
+</html>

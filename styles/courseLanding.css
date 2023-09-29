@@ -1,0 +1,188 @@
+/**************************** Heading ****************************/
+
+#heading {
+    margin: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    display: inline;
+}
+
+#rightHeading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+}
+
+/**************************** Add Course ****************************/
+
+#addCourse {
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+    background-color: rgb(169, 199, 212);
+    border: solid 2px rgb(174, 180, 184);
+    border-radius: 10px;
+    padding: 2%;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(109, 109, 108, 0.801);
+    transition: all 300ms ease-in-out;
+}
+
+#addCourse:hover {
+    background-color: rgb(158, 185, 196);
+    box-shadow: 1.5px 4px 12.5px rgba(109, 109, 108, 0.801);
+}
+
+#plus {
+    width: 3vh;
+    height: 3vh;
+}
+
+#grayOut {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(56, 50, 50, 0.858);
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    display: none;
+}
+
+#addCoursePrompt {
+    background-color: #f1f1f1;
+    width: 30vw;
+    height: 30vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    text-align: center;
+    font-size: 1.9vw;
+}
+
+input {
+    height: 10vh;
+    width: 10vw;
+    font-size: 1.75vw;
+    margin-top: 2%;
+}
+
+#submitAddCourse {
+    height: 7vh;
+    width: 7vw;
+    font-size: 1.18vw;
+}
+
+/**************************** Filter ****************************/
+
+#filterContainer {
+    position: relative;
+    display: inline-block;
+}
+  
+#filter {
+    margin: 0 1vw;
+    cursor: pointer;
+    width: 6vh;
+    height: 6vh;
+    transition: all 300ms ease-in-out;
+}
+
+#filter:hover {
+    filter: drop-shadow(8px 8px 10px rgba(109, 109, 108, 0.971));
+}
+  
+#filterDropdown {
+    position: absolute;
+    right: 5%;
+    background-color: #f1f1f1;
+    border: 1px solid #cccccc;
+    width: 7.5vw;
+    display: none;
+}
+  
+#filterDropdown a {
+    display: block;
+    height: 4vh;
+    width: 96%; /* to account for 2% padding on both sides */
+    font-size: 100%;
+    padding: 2%;
+}
+  
+#filterDropdown a:hover {
+    background-color: #ddd;
+    text-decoration: none;
+}
+
+/**************************** Courses ****************************/
+
+#courses {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5vh;
+    column-gap: 2.5vw;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#courses a {
+    text-decoration: none;
+}
+
+.courseBlock {
+    height: 35vh;
+    width: 35vh;
+    border: solid 2px rgb(150, 157, 165);
+    border-radius: 10px;
+    background-color: rgba(248, 238, 238, 0.552);
+    box-shadow: 0 3px 10px rgba(109, 109, 108, 0.801);
+    transition: all 300ms ease-in-out;
+}
+
+.courseBlock:hover {
+    box-shadow: 2px 6px 20px rgba(109, 109, 108, 0.801);
+    background-color: rgba(232, 222, 222, 0.552)
+}
+
+.background {
+    border-radius: 7.5px 7.5px 0 0;
+    height: 25%;
+    width: 100%;
+}
+
+.courseInfo {
+    margin: 1vh;
+}
+
+#courses .courseBlock:hover .fullCourseTitle {
+    text-decoration: underline;
+}
+
+.courseInfo .fullCourseTitle {
+    font-size: 3vh;
+}
+
+.courseInfo .courseCode {
+    font-size: 100%;
+}
+
+.courseInfo .courseTitle {
+    font-size: 90%;
+}
+
+.instructors {
+    font-size: 2vh;
+    color: rgb(140, 141, 136);
+    margin-top: 1vh;
+}

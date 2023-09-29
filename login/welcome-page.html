@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome page</title>
+
+    <link rel="stylesheet" href="../styles/welcome-page.css">
+
+    
+  </head>
+<body>
+
+<div class="backround">
+    <div id="header">
+        <a href="../index.html"><img src="../styles/images/logo-home.png" alt="logo" width="200" height="100"></a>
+        <a class="header-link" href="./help/contact-us.html">Contact Us</a>
+        <a class="header-link" href="./help/index.html">Help</a>
+      </div>
+  </div>
+  <div class="middle">
+    <h2>Welcome</h2>
+    <p>Pick your role!</p>
+    <a id="sign-in-btn" onclick = "localStorage.setItem('user', 'student')" href="./student login.html">Student</a>
+    <a id="sign-in-btn" onclick = "localStorage.setItem('user', 'teacher')" href="./teacher login.html">Educator</a>
+  </div>
+  
+</div>
+
+</body>
+</html>

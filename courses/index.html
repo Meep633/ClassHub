@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "UTF-8">
+      <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+      <link rel = "stylesheet" href = "../styles/style.css">
+      <link rel = "stylesheet" href = "../styles/courseLanding.css">
+      <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script type = "text/javascript" src = "../scripts/allPages.js"></script>
+      <script type = "text/javascript" src = "../scripts/sideMenu.js"></script>
+      <script type = "text/javascript" src = "../scripts/courseLanding.js"></script>
+      <title>Courses</title>
+   </head>
+   <body>
+      
+      <div id = "header">
+         <span id = "leftHeader">
+            <img id = "menuButton" src = "../styles/images/menu.png" alt = "menuButton">
+            <div id = "menu">
+               <div id = "space"></div>
+               <a class = "mainLink" href = "#"><div class = "menuBlock">Courses</div></a>
+               <div id = "courseLinks"></div>
+               <a id = "help" class = "mainLink" href = "#"><div  class = "menuBlock">Help</div></a>
+            </div>
+            <a href = "#"><img id = "logo" src = "../styles/images/logo.png" alt = "ClassHub"></a> <!-- not sure if this should redirect to courses or home page of entire website -->
+         </span>
+         <div id = "profileContainer">
+            <img id = "profile" src = "../styles/images/profile.png" alt = "profile">
+            <div id = "profileDropdown">
+               <a href = "#">Settings</a>
+               <a href = "../index.html">Log Out</a> <!-- should redirect to login page probably -->
+            </div>
+         </div>
+      </div>
+      <div id = "content">
+
+         <div id = "heading">
+            <h1>Courses</h1>
+            <span id = "rightHeading">
+               <span id = "addCourse">
+                  <img id = "plus" src = "../styles/images/plus.png" alt = "add course">
+                  Add Course
+               </span>
+               <div id = "filterContainer">
+                  <img id = "filter" src = "../styles/images/filter.png" alt = "filter">
+                  <div id = "filterDropdown">
+                     <a id = "sortDef" href = "#">Default</a>
+                     <a id = "sortAlph" href = "#">Alphabetical</a>
+                  </div>
+               </div>
+            </span>
+         </div>
+   
+         <div id = "courses"></div>
+   
+         <div id = "grayOut">
+            <div id = "addCoursePrompt">
+               <form>
+                  <label for = "courseRegCode">Course Registration Code:</label><br>
+                  <input type = "text" name = "courseRegCode" maxlength = 10>
+                  <input id = "submitAddCourse" type = "submit" value = "Add Course">
+               </form>
+               <div id = "closeAddCourse" class = "closeButton">&times;</div>
+            </div>
+         </div>
+         
+      </div>
+
+   </body>
+</html>

@@ -1,0 +1,49 @@
+/* CSS for discussion forum */
+
+html {
+    overflow-y: scroll;
+    height: auto;
+}
+
+#assignments {
+    width: 85vw;
+    margin-left: 15vw;
+}
+
+.assignments-container {
+    font-size: 2vh;
+}
+
+.assignment {
+    cursor: pointer;
+    border-bottom: solid 2px rgb(179, 186, 178);
+    padding: 1% 2.5%;
+    font-size: 3vh;
+}
+
+.assignment:hover {
+    background-color: rgb(179, 186, 178);
+}
+
+.assignment-name {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1%;
+    font-size: 3vh;
+    
+}
+
+.assignment p {
+  display: flex;
+}
+
+.date {
+    font-size: 2vh;
+    font-style: italic;
+    color: rgb(80, 82, 81);
+}
+
+.assignment .description {
+  display: none;
+  font-size: 2vh;
+}

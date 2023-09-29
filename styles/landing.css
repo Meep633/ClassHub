@@ -1,0 +1,98 @@
+
+/**************************** General ****************************/
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(118, 161, 184);
+  width: 100%;
+  margin: 0;
+  opacity: 1;
+  filter:alpha(opacity=100);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#background-image:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('./images/books.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  filter:alpha(opacity=40);
+  height:100%;
+  width:100%;
+}
+
+/**************************** Header ****************************/
+
+#header {
+  overflow: hidden;
+  padding: 20px 10px;
+  border-bottom: 3px solid white;
+}
+
+#header a {
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header-link {
+  font-size: 18px;
+  float: right;
+}
+
+.header-link:hover {
+  background-color: white;
+  color: black;
+}
+
+/***************************** Main *****************************/
+
+.main {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  padding: 20px;
+  margin: 10px 375px;
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+  padding: 30px;
+}
+
+#sign-in-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: white;
+  text-decoration: none;
+}
+
+#sign-in-btn:hover {
+  background-color: rgb(217, 217, 217);
+}

@@ -1,0 +1,183 @@
+/* any "border: solid black"s are for testing width. delete them when done */
+
+/**************************** General ****************************/
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(211, 223, 230);
+  width: 100%;
+  margin: 0;
+}
+
+img {
+  width: 8vh;
+  height: 8vh;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/**************************** Header ****************************/
+
+#header {
+  background-color: rgb(156, 174, 184);
+  border-bottom: 3px solid rgb(174, 180, 184);
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#leftHeader {
+  display: inline-flex;
+  align-items: center;
+  width: 20%;
+  margin: 0 1vw;
+}
+
+#menuButton {
+  margin-right: 1vw;
+  z-index: 2;
+  cursor: pointer;
+  width: 6vh;
+  height: 6vh;
+  transition: all 300ms ease-in-out;
+}
+
+#menuButton:hover {
+  filter: drop-shadow(8px 8px 10px rgba(109, 109, 108, 0.718));
+}
+
+#logo {
+  transition: all 300ms ease-in-out;
+}
+
+#logo:hover {
+  filter: drop-shadow(4px 4px 10px rgba(109, 109, 108, 0.718));
+}
+
+#profileContainer {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+
+#profile {
+  margin: 0 1vw;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+#profile:hover {
+  filter: drop-shadow(8px 8px 10px rgba(109, 109, 108, 0.718));
+}
+
+#profileDropdown {
+  position: absolute;
+  right: 5%;
+  background-color: #f1f1f1;
+  border: 1px solid #cccccc;
+  width: 7.5vw;
+  display: none;
+}
+
+#profileDropdown a {
+  display: block;
+  height: 4vh;
+  width: 96%; /* to account for 2% padding on both sides */
+  font-size: 100%;
+  padding: 2%;
+}
+
+#profileDropdown a:hover {
+  background-color: #ddd;
+  text-decoration: none;
+}
+
+#content {
+  margin-top: 10vh;
+}
+
+/**************************** Menu ****************************/
+
+#menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 15vw;
+  background-color: #dddddd;
+  border-right: solid 2px #c4b8b8;
+}
+
+.menuBlock {
+  padding: 1% 5%;
+}
+
+#courseLinks .menuBlock {
+  padding: 1% 10%;
+}
+
+.menuBlock:hover {
+  background-color: #c5c0c0;
+}
+
+#space {
+  height: 10vh;
+}
+
+.mainLink {
+  font-size: 3.5vh;
+}
+
+#courseLinks {
+  font-size: 2.5vh;
+  line-height: 1.6;
+}
+
+#courseLinks .courseCode {
+  font-size: 100%;
+}
+
+#courseLinks .courseTitle {
+  font-size: 90%;
+}
+
+#help {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 3vh;
+}
+
+/**************************** Other ****************************/
+
+.closeButton {
+  position: absolute;
+  top: 0;
+  right: 1%; /* not 0 because i think it isn't in the corner cuz height > width for text */
+  font-size: 5vh;
+  cursor: default;
+}
+
+.closeButton:hover {
+  color: rgb(132, 57, 57);
+}
+
+/* Need to make sure header stays at top of page even if you scroll down (look into positioning) */

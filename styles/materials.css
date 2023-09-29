@@ -1,0 +1,68 @@
+
+.teacherOptions {
+    display: none;
+}
+
+#announcements {
+    width: 85vw;
+    margin-left: 15vw;
+}
+
+
+
+#plus {
+    height: 4vh;
+    width: 4vh;
+}
+
+.announcementContainer {
+    
+    font-size: 2vh;
+}
+
+.title:hover {
+    background-color: rgb(179, 186, 178);
+}
+
+.title {
+    padding: 1% 2.5%;
+    border-bottom: solid 2px rgb(179, 186, 178);
+    font-size: 3vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title span {
+    display: flex;
+    align-items: center;
+}
+
+.title .date {
+    display: inline;
+    font-size: 1.9vh;
+    font-style: italic;
+    color: rgb(103, 106, 105);
+}
+
+.kebabMenu {
+    width: 3vh;
+    height: 3vh;
+}
+
+.kebabMenu:hover {
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.718));
+}
+
+.announcement {
+    padding: 1.5% 2.5%;
+    display: none;
+    color:blue;
+}
+
+.announcer {
+    float: right;
+    font-size: 1.9vh;
+    
+}

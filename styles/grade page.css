@@ -1,0 +1,45 @@
+body{ 
+    font: normal 16px Helvetica, Verdana; 
+    color: #333; 
+}
+h1 { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+p { 
+    font-weight: bold; 
+}
+.directions { 
+    display: block; 
+    margin-bottom: 10px; 
+    font-size: 80%; 
+}
+.wrapper { 
+    width: 50%; 
+    min-width: 300px; 
+    background: #eee; 
+    text-align: center; 
+    padding: 20px; 
+    margin: 0 auto; 
+    
+}
+#grades, #avg_grades { 
+    font: normal 20px "Courier New"; 
+}
+#final_grade { 
+    font: bold 72px Helvetica, Verdana; 
+}
+.green { 
+    color: green; 
+}
+.teal { 
+    color: teal; 
+}
+.blue { 
+    color: blue; 
+}
+.orange { 
+    color: orange; 
+}
+.red { 
+    color: red; 
+}

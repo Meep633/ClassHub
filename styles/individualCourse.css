@@ -1,0 +1,11 @@
+/* CSS for info on individual course's landing page */
+
+#courseDescription {
+    margin-left: 15vw;
+    padding: 1% 2.5%;
+}
+
+#courseDescription a {
+    text-decoration: underline;
+    color: blue;
+}

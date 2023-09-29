@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "UTF-8">
+      <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+      <link rel = "stylesheet" href = "../../../styles/style.css">
+      <link rel = "stylesheet" href = "../../../styles/courses.css">
+      <link rel = "stylesheet" href = "../../../styles/grade page.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script type = "text/javascript" src = "../../../scripts/allPages.js"></script>
+      <script type = "text/javascript" src = "../../../scripts/sideMenu.js"></script>
+      <script type = "text/javascript" src = "../../../scripts/grade page.js"></script>
+      <title>Grades</title>
+   </head>
+   <body>
+      
+      <div id = "header">
+         <span id = "leftHeader">
+            <img id = "menuButton" src = "../../../styles/images/menu.png" alt = "menuButton">
+            <div id = "menu">
+               <div id = "space"></div>
+               <a class = "mainLink" href = "../../index.html"><div class = "menuBlock">Courses</div></a>
+               <div id = "courseLinks"></div>
+               <a id = "help" class = "mainLink" href = "#"><div  class = "menuBlock">Help</div></a>
+            </div>
+            <a href = "../../index.html"><img id = "logo" src = "../../../styles/images/logo.png" alt = "ClassHub"></a> <!-- not sure if this should redirect to courses or home page of entire website -->
+         </span>
+         <div id = "profileContainer">
+            <img id = "profile" src = "../../../styles/images/profile.png" alt = "profile">
+            <div id = "profileDropdown">
+               <a href = "#">Settings</a>
+               <a href = "../../../index.html">Log Out</a> <!-- should redirect to login page probably -->
+            </div>
+         </div>
+      </div>
+      <div id = "content">
+         
+         <div id = "pages">
+            <!-- side menu for specific pages of a course -->
+            <a href = "../index.html"><div id = "titleBlock" class = "pageBlock">MATH 4100 - Linear Algebra</div></a>
+            <a href = "../announcements/announcements.html"><div class = "pageBlock">Announcements</div></a>
+            <a href = "../materials/materials.html"><div class = "pageBlock">Materials</div></a>
+            <a href = "../assignments/assignments.html"><div class = "pageBlock">Assignments</div></a>
+            <a href = "../forum/forum.html"><div class = "pageBlock">Discussion Forum</div></a>
+            <a href = "../grade calculator/report card.html"><div class = "pageBlock">Grade Description</div></a>
+            <a href = "#"><div class = "pageBlock">Grade Calculator</div></a>
+         </div>
+        
+
+         
+            <div class="wrapper">
+
+                <h1>Grade Calculator</h1>
+            
+                <div class="directions">Input your grades separated by commas:</div>
+            
+                <input id="yourgrades" type="text" />
+                <input id="submitbutton" type="button" value="Calculate" onClick="submit();"/>
+            
+                
+                <div id="grades"></div>
+            
+                <p>Your average grade is:</p>
+                <div id="avg_grades"></div>
+            
+                <p>Your letter grade is:</p>
+                <div id="final_grade"></div>
+            
+            </div>
+            </div>
+         </div>
+
+         
+
+      </div>
+      <script src="../../../scripts/grade page.js"></script>
+
+   </body>
+</html>

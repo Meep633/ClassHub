@@ -1,0 +1,29 @@
+/* CSS for individual course pages */
+
+html {
+    overflow-y: scroll;
+}
+
+/* Side menu (for specific courses, not the same as menu for all courses) */
+#pages {
+    position: fixed;
+    height: 90vh;
+    width: 15vw;
+    background-color: #d3cdcd;
+    border-right: solid 2px #cac8c8;
+    padding-top: 1%;
+}
+
+.pageBlock {
+    padding: 5% 5%;
+    font-size: 2.5vh;
+}
+
+.pageBlock:hover {
+    background-color: #b8aeae;
+}
+
+#titleBlock {
+    font-size: 3vh;
+    border-bottom: solid 2px #bfbbbb;
+}

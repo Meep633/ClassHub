@@ -1,0 +1,50 @@
+{
+    "courses": [
+        {
+            "code": "CSCI 2961",
+            "title": "RCOS",
+            "instructors": [
+                "Wesley D Turner",
+                "David Eric Goldschmidt"
+            ],
+            "backgroundColor": "rgb(104, 131, 154)",
+            "url": "csci2961/index.html"
+        },
+        {
+            "code": "ITWS 4960",
+            "title": "Cloud Security",
+            "instructors": [
+                "Brian Robert Callahan"
+            ],
+            "backgroundColor": "rgb(188, 100, 67)",
+            "url": "itws4960/index.html"
+        },
+        {
+            "code": "MATH 4100",
+            "title": "Linear Algebra",
+            "instructors": [
+                "Daniel Franklin Stevenson"
+            ],
+            "backgroundColor": "rgb(67, 69, 188)",
+            "url": "math4100/index.html"
+        },
+        {
+            "code": "CSCI 2300",
+            "title": "Introduction to Algorithms",
+            "instructors": [
+                "Stacy Elizabeth Patterson"
+            ],
+            "backgroundColor": "rgb(115, 154, 104)",
+            "url": "csci2300/index.html"
+        },
+        {
+            "code": "ITWS 2110",
+            "title": "Web Systems Development",
+            "instructors": [
+                "Brian Robert Callahan"
+            ],
+            "backgroundColor": "rgb(144, 104, 154)",
+            "url": "itws2110/index.html"
+        }
+    ]
+}

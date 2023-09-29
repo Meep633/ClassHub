@@ -1,0 +1,89 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .backround {
+    background-color: rgb(211, 223, 230);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  
+  
+  .middle {
+  font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  h2 {
+    
+    margin: 10px 375px;
+    font-size: 40px;
+  }
+  
+  p {
+    font-size: 20px;
+    padding: 30px;
+  }
+  #sign-in-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    text-decoration: none;
+    color:black;
+  }
+  
+  #sign-in-btn:hover {
+    background-color: rgb(217, 217, 217);
+  }
+  
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+  
+  #header {
+    overflow: hidden;
+    padding: 20px 10px;
+    border-bottom: 3px solid white;
+  }
+  
+  #header a {
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  #logo {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .header-link {
+    font-size: 18px;
+    float: right;
+  }
+  
+  .header-link:hover {
+    background-color: white;
+    color: black;
+    
+  }

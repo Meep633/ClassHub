@@ -1,0 +1,188 @@
+<!-- Announcements page -->
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "UTF-8">
+      <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+      <link rel = "stylesheet" href = "../../../styles/style.css">
+      <link rel = "stylesheet" href = "../../../styles/courses.css">
+      <link rel = "stylesheet" href = "../../../styles/announcements.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script type = "text/javascript" src = "../../../scripts/allPages.js"></script>
+      <script type = "text/javascript" src = "../../../scripts/sideMenu.js"></script>
+      <script type = "text/javascript" src = "../../../scripts/announcements.js"></script>
+      <title>Announcements</title>
+   </head>
+   <body>
+      
+      <div id = "header">
+         <span id = "leftHeader">
+            <img id = "menuButton" src = "../../../styles/images/menu.png" alt = "menuButton">
+            <div id = "menu">
+               <div id = "space"></div>
+               <a class = "mainLink" href = "../../index.html"><div class = "menuBlock">Courses</div></a>
+               <div id = "courseLinks"></div>
+               <a id = "help" class = "mainLink" href = "#"><div  class = "menuBlock">Help</div></a>
+            </div>
+            <a href = "../../index.html"><img id = "logo" src = "../../../styles/images/logo.png" alt = "ClassHub"></a> <!-- not sure if this should redirect to courses or home page of entire website -->
+         </span>
+         <div id = "profileContainer">
+            <img id = "profile" src = "../../../styles/images/profile.png" alt = "profile">
+            <div id = "profileDropdown">
+               <a href = "#">Settings</a>
+               <a href = "../../../index.html">Log Out</a> <!-- should redirect to login page probably -->
+            </div>
+         </div>
+      </div>
+      <div id = "content">
+         
+         <div id = "pages">
+            <!-- side menu for specific pages of a course -->
+            <a href = "../index.html"><div id = "titleBlock" class = "pageBlock">CSCI 2300 - Introduction to Algorithms</div></a>
+            <a href = "#"><div class = "pageBlock">Announcements</div></a>
+            <a href = "../materials/materials.html"><div class = "pageBlock">Materials</div></a>
+            <a href = "../assignments/assignments.html"><div class = "pageBlock">Assignments</div></a>
+            <a href = "../forum/forum.html"><div class = "pageBlock">Discussion Forum</div></a>
+            <a href = "../grade calculator/report card.html"><div class = "pageBlock">Grade Description</div></a>
+            <a href = "../grade calculator/grade.html"><div class = "pageBlock">Grade Calculator</div></a>
+         </div>
+
+         <div id = "announcements">
+            <div id = "announcementButton" class = "teacherOptions">
+               <button id = "addAnnouncement">
+                  <img id = "plus" src = "../../../styles/images/plus.png" alt = "add announcement">
+                  New Announcement
+               </button>
+               <!-- Add new post button. Then have a thing to completely cover the page with the new announcement form thingy -->
+               <!-- Also for each announcement, have a dot dot dot image that you can click on to edit or delete an announcement -->
+            </div>
+            <div class = "announcementContainer">
+               <div class = "title">
+                  Testing
+                  <span>
+                     <span class = "date">Jan 01, 2000</span>
+                     <img class = "kebabMenu teacherOptions" src = "../../../styles/images/kebabMenu.jpg" alt = "announcement options">
+                  </span>
+               </div>
+               <div class = "announcement">
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  <div class = "announcer">- Richard Plotka</div>
+               </div>
+            </div>
+            <div class = "announcementContainer">
+               <div class = "title">
+                  Testing
+                  <span>
+                     <span class = "date">Jan 01, 2000</span>
+                     <img class = "kebabMenu teacherOptions" src = "../../../styles/images/kebabMenu.jpg" alt = "announcement options">
+                  </span>
+               </div>
+               <div class = "announcement">
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  <div class = "announcer">- Richard Plotka</div>
+               </div>
+            </div>
+            <div class = "announcementContainer">
+               <div class = "title">
+                  Testing
+                  <span>
+                     <span class = "date">Jan 01, 2000</span>
+                     <img class = "kebabMenu teacherOptions" src = "../../../styles/images/kebabMenu.jpg" alt = "announcement options">
+                  </span>
+               </div>
+               <div class = "announcement">
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  <div class = "announcer">- Richard Plotka</div>
+               </div>
+            </div>
+            <div class = "announcementContainer">
+               <div class = "title">
+                  Testing
+                  <span>
+                     <span class = "date">Jan 01, 2000</span>
+                     <img class = "kebabMenu teacherOptions" src = "../../../styles/images/kebabMenu.jpg" alt = "announcement options">
+                  </span>
+               </div>
+               <div class = "announcement">
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  <div class = "announcer">- Richard Plotka</div>
+               </div>
+            </div>
+            <div class = "announcementContainer">
+               <div class = "title">
+                  Testing
+                  <span>
+                     <span class = "date">Jan 01, 2000</span>
+                     <img class = "kebabMenu teacherOptions" src = "../../../styles/images/kebabMenu.jpg" alt = "announcement options">
+                  </span>
+               </div>
+               <div class = "announcement">
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  <div class = "announcer">- Richard Plotka</div>
+               </div>
+            </div>
+            <div class = "announcementContainer">
+               <div class = "title">
+                  Testing
+                  <span>
+                     <span class = "date">Jan 01, 2000</span>
+                     <img class = "kebabMenu teacherOptions" src = "../../../styles/images/kebabMenu.jpg" alt = "announcement options">
+                  </span>
+               </div>
+               <div class = "announcement">
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  Hi hello hi hellooo bonjour hi hi hi hi hi hello hi hi hi hello hola.<br>
+                  <div class = "announcer">- Richard Plotka</div>
+               </div>
+            </div>
+         </div>
+
+         <!-- <div id = "grayOut">
+            <div id = "addCoursePrompt">
+               <form>
+                  <label for = "announcementTitle">Title:</label>
+                  <input type = "text" name = "announcementTitle"><br>
+                  <label for = "announcementContent">Content:</label><br>
+                  <input type = "text" name = "announcementContent">
+                  <input id = "submitAddCourse" type = "submit" value = "Add Course">
+               </form>
+               <div id = "backArrow" class = "closeButton">&times;</div>
+            </div>
+         </div> -->
+         <!-- if you have time, make grayOut go over the entire screen. will need a text box for title of announcement as well as textbox for content. 
+              use current date for date and make something up for announcer -->
+
+      </div>
+
+   </body>
+</html>
